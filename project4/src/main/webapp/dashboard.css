@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poppins,sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background: #ddd;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	Background: white;
+	padding: 0 8%;
+	box-shadow: 0 0 8px black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header h2{
+	font-size: 20px;
+	
+}
+.header a{
+	padding: 8px 20px;
+	background: crimson;
+	color: white;
+	border: 2px solid crimson;
+	text-decoration: none;
+	border-radius: 4px; 
+	outline: none;
+}
+.container1{
+	width: 100%;
+	height: 70px;
+	padding: 0 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.container1 a{
+	text-decoration: none;
+	padding: 8px 20px;
+	color: white;
+	background: blue;
+	border: 2px solid blue;
+	border-radius: 4px;
+	outline: none;
+}
+.container1 p{
+	font-weight: 530;
+}
+.main-container{
+	width: 100%;
+	padding: 20px 8%;
+	
+	
+}
+.main-container .container2{
+	width: 100%;
+	height:100%;
+	background: white;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+.container2 .input-field{
+	width: 100%;
+	
+}
+.container2 .input-field label{
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+.container2 .input-field input{
+	width: 100%;
+	margin-top: 8px;
+	padding: 10px;
+	font-size: 18px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	outline: none;
+}
+.container2 table{
+	margin-top: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+.container2 table thead{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.container2 table thead th{
+	background: blue;
+	color: white;
+	height: 50px;
+}
+.container2 table td{
+	padding: 7px;
+	text-align: center;
+	font-size: 15px;
+}
+.container2 table tbody tr{
+	border-bottom: 2px solid blue;
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poppins,sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background: #ddd;
+}
+.back{
+	width: 100%;
+	height: 70px;
+	background: blue;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 8%;
+}
+.back a{
+	width: 70px;
+	text-decoration: none;
+	padding: 8px 20px;
+	border: 2px solid blue;
+	background: white;
+	color: blue;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form{
+	width:400px;
+	height:450px;
+	margin:40px auto;
+	background:white;
+	box-shadow:0 0 12px rgb(0,0,0,0.88);
+	border-radius:4px;
+	overflow:hidden;
+	
+}
+
+form .title{
+	width:100%;
+	height:50px;
+	background:blue ;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+}
+
+form .form-field,
+form .button-field{
+	width:100%;
+	padding:10px 40px;
+}
+
+form .form-field label{
+	font-weight:bold;
+}
+
+form .form-field input,
+form .form-field select{
+	width:100%;
+	margin-top:5px;
+	padding:8px;
+	outline:none;
+	border:2px solid #ddd;
+	border-radius:4px;
+	transition:all ease in 0.4s;
+}
+
+form .form-field input:focus,
+form .form-field select:focus{
+	border:2px solid blue;
+}
+
+form .button-field{
+	margin-top:10px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:30px;
+}
+
+form .button-field input{
+	width:45%;
+	padding:10px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	border-radius:4px;
+}
+form .button-field input[type='submit']{
+	background: blue;
+	color: white;
+	border: 2px solid blue;
+}
